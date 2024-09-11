@@ -25,15 +25,16 @@ struct SuperHero: Codable {
 }
 
 struct Biography: Codable {
-    let fullNmae: String
+    let fullName: String
     let alterEgos: String
     let aliases: [String]
     let placeOfBirth: String
     let publisher: String
+    let alignment: String
     
     enum CodingKeys: String, CodingKey {
-        case aliases, publisher
-        case fullNmae = "full-name"
+        case aliases, publisher, alignment
+        case fullName = "full-name"
         case placeOfBirth = "place-of-birth"
         case alterEgos = "alter-egos"
     }
@@ -51,5 +52,3 @@ struct Stats: Codable {
 struct Image: Codable {
     let url: String
 }
-
-

@@ -7,17 +7,20 @@
 
 import UIKit
 
-class TableSuperHeroViewCell: UITableViewCell {
+class SuperHeroViewCell: UITableViewCell {
     
     @IBOutlet weak var heroImage: UIImageView!
     @IBOutlet weak var heroName: UILabel!
+    @IBOutlet weak var cardView: UIView!
     
     func render(superHero: SuperHero) {
-        
+        heroImage.loadFrom(url: superHero.image.url)
+        heroName.text = superHero.name
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        cardView.roundCorners(radius: 8)
         // Initialization code
     }
 
