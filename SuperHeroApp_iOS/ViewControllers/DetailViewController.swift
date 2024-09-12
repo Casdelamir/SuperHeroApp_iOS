@@ -17,6 +17,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var alignment: UILabel!
     @IBOutlet weak var alterEgos: UILabel!
+    @IBOutlet weak var abilitiesButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +41,8 @@ class DetailViewController: UIViewController {
                 alignment.textColor = UIColor.systemRed
             }
         }
+        
+        abilitiesButton.roundCorners(radius: 8)
     }
     
     

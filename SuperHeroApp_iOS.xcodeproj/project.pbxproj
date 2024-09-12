@@ -11,6 +11,7 @@
 		6C1246CF2C903508008B699D /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1246CE2C903508008B699D /* UIViewExtention.swift */; };
 		6C1246D12C904C04008B699D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1246D02C904C04008B699D /* DetailViewController.swift */; };
 		6C1246D32C9072C2008B699D /* ViewControllerAbilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1246D22C9072C2008B699D /* ViewControllerAbilities.swift */; };
+		6C1E6EF72C92F3A5002E1B5C /* Main.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E6EF62C92F3A5002E1B5C /* Main.xcstrings */; };
 		6C660A302C8EDE6900B30767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C660A2F2C8EDE6900B30767 /* AppDelegate.swift */; };
 		6C660A322C8EDE6900B30767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C660A312C8EDE6900B30767 /* SceneDelegate.swift */; };
 		6C660A342C8EDE6900B30767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C660A332C8EDE6900B30767 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		6C1246CE2C903508008B699D /* UIViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
 		6C1246D02C904C04008B699D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6C1246D22C9072C2008B699D /* ViewControllerAbilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAbilities.swift; sourceTree = "<group>"; };
+		6C1E6EF62C92F3A5002E1B5C /* Main.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Main.xcstrings; sourceTree = "<group>"; };
 		6C660A2C2C8EDE6900B30767 /* SuperHeroApp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroApp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C660A2F2C8EDE6900B30767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C660A312C8EDE6900B30767 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				6C660A2F2C8EDE6900B30767 /* AppDelegate.swift */,
 				6C660A312C8EDE6900B30767 /* SceneDelegate.swift */,
 				6C660A352C8EDE6900B30767 /* Main.storyboard */,
+				6C1E6EF62C92F3A5002E1B5C /* Main.xcstrings */,
 				6C660A382C8EDE6A00B30767 /* Assets.xcassets */,
 				6C660A3A2C8EDE6A00B30767 /* LaunchScreen.storyboard */,
 				6C660A3D2C8EDE6A00B30767 /* Info.plist */,
@@ -215,6 +218,7 @@
 			files = (
 				6C660A392C8EDE6A00B30767 /* Assets.xcassets in Resources */,
 				6C660A3C2C8EDE6A00B30767 /* Base in Resources */,
+				6C1E6EF72C92F3A5002E1B5C /* Main.xcstrings in Resources */,
 				6C660A372C8EDE6900B30767 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

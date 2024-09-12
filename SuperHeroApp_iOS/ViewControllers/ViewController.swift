@@ -18,16 +18,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view.
         tableView.dataSource = self
         
-        
-        
         // Setup SearchBar
         let search = UISearchController(searchResultsController: nil)
         //equal to self is used for rendering another controler on searching
         //search.delegate = self
         search.searchBar.delegate = self
         self.navigationItem.searchController = search
-        
-        searchSuperHeroes("bat")
         
     }
 
@@ -76,7 +72,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         Task {
             let results = try? await DataProvider.findSuperHeroesByName(query)
             
-            self.superHeroList = results!
+            self.superHeroList = results ?? []
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
